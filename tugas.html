@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Judul</title>
+<style type="text/css">
+	
+	* {
+		margin: 0;
+		padding:0;
+	}
+	.banner{
+		position: relative;
+		width: 98%;
+		height: 200px;
+		margin-left: 2%;
+	}
+	.pict{
+		width: 98%;
+		height: 98%;
+		margin: 1px;
+		background-color: #ecf0f1;
+	}
+	.centered {
+ 	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 28pt;
+	}
+
+	.tulisan{
+		margin: 2%;
+		text-align: left;
+		background-color: #bdc3c7;
+	}
+
+	ul {
+  	list-style-type: none;
+  	margin-left: 2%;
+  	margin-right: 2%;
+  	margin-bottom: 2%;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #4b0f7b;
+  	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
+	}
+
+	li {
+  	float: left;
+	}
+
+	li a {
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+	}
+
+	li a:hover {
+  	background-color: #641d9e;
+	}
+
+	.active {
+  	background-color: #641d9e;
+	}
+
+	.item {
+		width: 96%;
+		margin: 2%;
+		height: 200px;
+		background-color: #ecf0f1;	
+	}
+	.thumbnail{
+		width: 25%;
+		height: 180px;
+		padding: 10px;
+		float:left;
+		background-color: #bdc3c7;
+	}
+	.deskripsi{
+		width: 72%;
+		height: 200px;
+		float: right;
+		margin-left: 1%;
+		background-color: #bdc3c7;
+	}
+
+</style>
+</head>
+<body>
+	<div class="banner">
+		<div class="pict">
+			<img src="assets/banner.jpg" width="100%" height="98%">
+		</div>
+		<div class="centered">NAMA WEBSITE</div>
+	</div>
+
+	<ul>
+  	<li><a class="active" href="">Home</a></li>
+  	<li><a href="">Menu A</a></li>
+  	<li><a href="">Menu B</a></li>
+  	<li><a href="">Menu C</a></li>
+	</ul>
+
+	<div class="item">
+		<div class="thumbnail">
+			<img id src="assets/thumbnail.png" width="100%" height="100%">
+		</div>
+		<div class="deskripsi">
+			<h1>Lorem Ipsum</h1>
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		</div>
+	</div>
+
+	<div class="item">
+		<div class="thumbnail">
+			<img id src="assets/thumbnail.png" width="100%" height="100%">
+		</div>
+		<div class="deskripsi">
+			<h1>Lorem Ipsum</h1>
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		</div>
+	</div>
+	
+	<div class="item">
+		<div class="thumbnail">
+			<img id src="assets/thumbnail.png" width="100%" height="100%">
+		</div>
+		<div class="deskripsi">
+			<h1>Lorem Ipsum</h1>
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		</div>
+	</div>
+</body>

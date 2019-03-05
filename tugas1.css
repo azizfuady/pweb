@@ -1,0 +1,66 @@
+/*
+.judul{
+	font-size: 30pt;
+	text-align: center;
+	color: blue;
+	font-style: bold;
+}
+
+.labelform{
+	font-size: 14pt;
+	color: red;
+	font-style: italic;
+}
+.kotakform{
+
+}
+*/
+
+.banner{
+	position: relative;
+	width: 96%;
+	height: 10%;
+	margin-left: 2%;
+	}
+
+.pict{
+	width: 98%;
+	height: 98%;
+	margin: 1px;
+	background-color: #ecf0f1;
+	}
+
+.centered {
+ 	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 28pt;
+	}
+
+.tulisan{
+	margin: 2%;
+	text-align: left;
+	background-color: #bdc3c7;
+	}
+
+.item {
+	width: 96%;
+	margin: 2%;
+	height: 200px;
+	background-color: #ecf0f1;	
+	}
+.thumbnailz{
+	width: 25%;
+	height: 100px;
+	padding: 10px;
+	float:left;
+	background-color: #bdc3c7;
+	}
+.deskripsi{
+	width: 72%;
+	height: 200px;
+	float: right;
+	margin-left: 1%;
+	background-color: #bdc3c7;
+	}
